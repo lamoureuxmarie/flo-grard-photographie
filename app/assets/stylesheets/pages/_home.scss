@@ -1,1 +1,25 @@
-// Specific CSS for your home-page
+.card {
+  padding: 20px;
+  height: 400px;
+  border-radius: 4px;
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.card .portraits {
+  background-image: url('https://i.ibb.co/6DgkMbt/portrait-fille-2.jpg');
+}
+
+.card .produits {
+  background-image: url('https://i.ibb.co/rv9k5ck/lulu.jpg');
+}
+
+.card .nature {
+  background-image: url('https://i.ibb.co/8czdWpR/14.jpg');
+}

@@ -1,3 +1,32 @@
-<h1>
-  "La photographie est le reflet de mes émotions"
-</h1>
+<div class="banner d-flex justify-content-center align-items-end" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path "eye.jpg"%>);">
+  <h1>"La photographie est le reflet de mes émotions"</h1>
+</div>
+
+<div class="menu p-5">
+  <div class="d-flex flex-wrap justify-content-evenly">
+
+    <div class="card mt-2 shadow-sm" style="width: 18rem;">
+      <div class="card-img-top portraits"></div>
+      <div class="card-body">
+        <h5 class="card-title">Portrait, lifestyle</h5>
+      </div>
+    </div>
+
+    <div class="card mt-2 shadow-sm" style="width: 18rem;">
+      <div class="card-img-top produits"></div>
+      <div class="card-body">
+        <h5 class="card-title">Shootings Produits</h5>
+      </div>
+    </div>
+
+    <div class="card mt-2 shadow-sm" style="width: 18rem;">
+      <div class="card-img-top nature"></div>
+      <div class="card-body">
+        <h5 class="card-title">Nature & Exploration</h5>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+ <%= render "shared/footer" %>
